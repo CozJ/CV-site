@@ -21,19 +21,19 @@
 
 <main class="overflow-x-hidden">
   <Hero/>
-  <Section sectionColour={"#fff"}>
+  <Section sectionColour={"#fff"} sectionName='Skills'>
     <div class="w-[100%] h-[100%] flex">
-      
+
     </div>
   </Section>
   <WaveDivider waveColour={"#e3941e"} invert={false}/>
-  <Section sectionColour={"#e3941e"}>
+  <Section sectionColour={"#e3941e"} sectionName='Workplace'>
     <div class="w-[100%] h-[100%] flex">
 
     </div>
   </Section>
   <WaveDivider waveColour={"#e3941e"} invert={true}/>
-  <Section sectionColour={"#fff"}>
+  <Section sectionColour={"#fff"} sectionName='Projects'>
     <div class="w-[100%] h-[100%] flex">
 
     </div>
