@@ -8,7 +8,11 @@
 <div class="text-white w-screen bg-[#013C58] h-[80vh] z-50 shadow-lg top-0 flex lg:flex-row flex-col justify-around items-center">
     <div class="text-[3rem] flex flex-col">
         <h1>Corey Sutcliffe</h1>
-
+        <h2>Web Developer and Software Engineer</h2>
+        <br/>
+        <p class="text-3xl">Reliable</p>
+        <p class="text-3xl">Trustworthy</p>
+        <p class="text-3xl">Enthusiastic</p>
     </div>
     <img class="h-[50vh] w-auto aspect-auto rounded-[50%]" src="{selfie}" alt="selfie"/>
 </div>
