@@ -23,11 +23,12 @@
   </style>
 </svelte:head>
 
-<main class="overflow-x-hidden">
+
+<main>
   <Hero />
   <Section sectionColour={"#fff"} sectionName="Skills">
-    <h1 class="text-3xl m-4 lg:m-16 font-bold">Frameworks Used</h1>
-    <div class="w-screen flex flex-col lg:flex-row justify-around items-center">
+    <h1 class="text-3xl m-4 lg:m-20 font-bold">Frameworks Used</h1>
+    <div class="w-screen max-w-full flex flex-col lg:flex-row justify-around items-center">
       <Card cardTitle="Svelte" cardImage={SvelteLogo}>
         <p class="text-2xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem est
