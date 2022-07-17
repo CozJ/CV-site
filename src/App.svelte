@@ -29,22 +29,21 @@
   <Section sectionColour={"#fff"} sectionName="Skills">
     <h1 class="text-3xl m-4 lg:m-20 font-bold">Frameworks Used</h1>
     <div class="w-screen max-w-full flex flex-col lg:flex-row justify-around items-center">
-      <Card cardTitle="Svelte" cardImage={SvelteLogo}>
-        <p class="text-2xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem est
-          veniam harum iste. Quisquam, neque ducimus.
+      <Card cardTitle="Svelte" cardImage={SvelteLogo} TimeUsed="2022 - Current">
+        <p class="text-2xl pt-2 text-center">
+          The latest Framework I have taken to using for setting up quick and
+           easy Component based reactive sites.
         </p>
       </Card>
-      <Card cardTitle="React" cardImage={ReactLogo}>
-        <p class="text-2xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem est
-          veniam harum iste. Quisquam, neque ducimus.
+      <Card cardTitle="React" cardImage={ReactLogo} TimeUsed="2021 - Current">
+        <p class="text-2xl pt-2 text-center">
+          React a powerfull and customisable Framework I have used 
+          within a profesional setting for work. 
         </p>
       </Card>
-      <Card cardTitle="Blazor" cardImage={BlazorLogo}>
-        <p class="text-2xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem est
-          veniam harum iste. Quisquam, neque ducimus.
+      <Card cardTitle="Blazor" cardImage={BlazorLogo} TimeUsed="2020 - 2021">
+        <p class="text-2xl pt-2 text-center">
+          Framework used within University 
         </p>
       </Card>
     </div>
