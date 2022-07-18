@@ -7,6 +7,7 @@
   import SvelteLogo from "./assets/svelte-logo.png";
   import ReactLogo from "./assets/react-logo.png";
   import BlazorLogo from "./assets/blazor-logo.png";
+  import DotNetLogo from "./assets/NET-logo.svg";
 </script>
 
 <svelte:head>
@@ -41,9 +42,10 @@
           within a profesional setting for work. 
         </p>
       </Card>
-      <Card cardTitle="Blazor" cardImage={BlazorLogo} TimeUsed="2020 - 2021">
+      <Card cardTitle='.NET' cardImage={DotNetLogo} TimeUsed="2020 - 2021">
         <p class="text-2xl pt-2 text-center">
-          Framework used within University 
+          Framework I used in my second year at University for the
+          module 'Modern Web Development'.
         </p>
       </Card>
     </div>
