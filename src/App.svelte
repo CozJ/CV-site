@@ -1,13 +1,29 @@
 <script lang="ts">
-  //import "./app.css";
   import Hero from "./lib/Hero.svelte";
   import Section from "./lib/Section.svelte";
   import WaveDivider from "./lib/WaveDivider.svelte";
   import Card from "./lib/Card.svelte";
   import SvelteLogo from "./assets/svelte-logo.png";
   import ReactLogo from "./assets/react-logo.png";
-  import BlazorLogo from "./assets/blazor-logo.png";
   import DotNetLogo from "./assets/NET-logo.svg";
+  import { initializeApp } from "firebase/app";
+  import { getAnalytics } from "firebase/analytics";
+
+  const secret = import.meta.env.SECURE_SECRET_API_KEY;
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyBmYN6UYn5f05bmQN_PN2pV2B7OWZFftOE",
+    authDomain: "cv-site-681bc.firebaseapp.com",
+    projectId: "cv-site-681bc",
+    storageBucket: "cv-site-681bc.appspot.com",
+    messagingSenderId: "592283907508",
+    appId: "1:592283907508:web:b98073eff487ad9c666ee1",
+    measurementId: "G-T9LTFKBZ50"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+
 </script>
 
 <svelte:head>

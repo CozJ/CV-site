@@ -18,7 +18,7 @@
             <h2 class="leading-loose text-xl lg:text-3xl">Student & Frontend developer</h2>
             <h2 class="leading-loose text-xl lg:text-3xl">Work in Progress CV site</h2>
         </div>
-        <div class="flex flex-col p-10 lg:p-20 max-w-full lg:w-1/2">
+        <div class="flex flex-col p-6 lg:p-20 max-w-full lg:w-1/2">
             <ThreeContainer/>
         </div>
     </div>
