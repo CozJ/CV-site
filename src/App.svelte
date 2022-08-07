@@ -9,10 +9,11 @@
   import { initializeApp } from "firebase/app";
   import { getAnalytics } from "firebase/analytics";
 
-  const secret = import.meta.env.SECURE_SECRET_API_KEY;
+  const secret : string = import.meta.env.VITE_SECURE_SECRET_API_KEY;
+
 
   const firebaseConfig = {
-    apiKey: "AIzaSyBmYN6UYn5f05bmQN_PN2pV2B7OWZFftOE",
+    apiKey: secret,
     authDomain: "cv-site-681bc.firebaseapp.com",
     projectId: "cv-site-681bc",
     storageBucket: "cv-site-681bc.appspot.com",

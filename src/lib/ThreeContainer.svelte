@@ -1,9 +1,7 @@
 <script lang="ts">
     import * as Aframe from "aframe";
-
+    
     const BoulderPonderosa = new URL('../assets/BoulderPonderosa.gltf', import.meta.url).href;
-
-    console.log(BoulderPonderosa.toString());
 
 </script>
 
